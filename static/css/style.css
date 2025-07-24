@@ -1,0 +1,16 @@
+.cropper-container {
+  max-width: 100%;
+  margin: 20px 0;
+}
+#preview {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+#cropBtn {
+  margin-bottom: 16px;
+}
+.hidden {
+  display: none;
+}
