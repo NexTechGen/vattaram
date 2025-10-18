@@ -15,9 +15,9 @@ login_manager.init_app(app)
 login_manager.login_view = 'login'
 
 # MongoDB Atlas Connection
-client = MongoClient('mongodb+srv://UOJvattaram:UOJ2023et@cluster0.qxvkvqt.mongodb.net/?retryWrites=true&w=majority&connectTimeoutMS=50000&socketTimeoutMS=50000&serverSelectionTimeoutMS=50000')
+client = MongoClient('mongodb+srv://Ruzait:2023ET139@cluster0.loq8v.mongodb.net/vattaram?retryWrites=true&w=majority&appName=Cluster0')
 db = client['vattaram']
-collection = db['weare']
+collection = db['UOJvattaram']
 fs = gridfs.GridFS(db)
 
 # User class
